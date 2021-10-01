@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" media="screen and (max-width:1086px)" href="phone.css">
+</head>
+<body>
+    <div class="fixed">
+        <div class="navbar h-nav">
+            <nav class="navcc h-nav">
+                <img src="logo.png" alt="logo">
+                <ul class="nav-ul v-class">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shopping.html">Shopping</a></li>
+                    <li><a href="login.html">login/Sign Up</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <hr>
+                </ul>
+                <div class="right-nav v-class">
+                    <input type="text" name="search" id="search">
+                    <button class="btn">Search</button>
+                </div>
+                <div class="hamburger nav-toggle">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div id="contactus">
+        <h1 class="heading-primary1">Contact Us</h1>
+        <div class="contact">
+            <form id="form" action="hph.php">
+                <div class="formin">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="formin">
+                    <label for="Email">Email: </label>
+                    <input type="email" name="Email" id="Email" placeholder="Enter your Email">
+                </div>
+                <div class="formin">
+                    <label for="phoneNo">Phone Number: </label>
+                    <input type="text" name="phoneNo" id="phoneNo" placeholder="Enter your phoneNo">
+                </div>
+                <div class="formin">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="center">
+            <div class="new">
+                 CopyRight &copy; All Rights are Reserved
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>
